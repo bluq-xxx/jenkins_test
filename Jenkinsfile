@@ -6,6 +6,7 @@ pipeline {
             steps {        // ações dentro da etapa
                 sh 'whoami'
                 sh 'uname -a'
+                sh 'ls -lha'
             }
         }
     }
