@@ -7,6 +7,7 @@ pipeline {
                 sh 'whoami'
                 sh 'uname -a'
                 sh 'ls -lha'
+                sh 'pwd'
             }
         }
     }
