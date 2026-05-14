@@ -5,6 +5,7 @@ pipeline {
         stage('Nome') {    // uma etapa específica
             steps {        // ações dentro da etapa
                 sh 'whoami'
+                sh 'uname -a'
             }
         }
     }
