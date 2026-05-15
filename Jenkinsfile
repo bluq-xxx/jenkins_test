@@ -9,6 +9,7 @@ pipeline {
                 sh 'uname -a'
                 sh 'ls -lha'
                 sh 'pwd'
+                sh 'echo $JENKINS_HOME'
             }
         }
     }
